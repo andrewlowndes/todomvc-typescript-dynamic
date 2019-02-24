@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="stylesheet" type="text/css" href="temp.css" />
+    
+    <script>
+      (function() {
+        function addScript(src, cb) {
+          var script = document.createElement('script');
+          script.src = src;
+          script.async = true;
+          script.onload = cb;
+          document.head.appendChild(script);
+        }
+        
+        window.onload = function() {
+          addScript('vendor.js', function() {
+            addScript('app.js');
+          });
+        };
+      })();
+    </script>
+  </head>
+  <body></body>
+</html>

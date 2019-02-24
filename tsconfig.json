@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "sourceMap": false,
+    "declaration": false,
+    "module": "commonjs",
+    "noImplicitAny": true,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "target": "es5",
+    "lib": ["dom", "es6"],
+    "jsx": "react",
+    "reactNamespace": "DomCreator"
+  },
+  "include": [
+    "./src/**/*"
+  ]
+}

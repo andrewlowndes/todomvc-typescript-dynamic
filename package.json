@@ -1,0 +1,26 @@
+{
+  "name": "ts-jxs-todo",
+  "version": "1.0.0",
+  "description": "Using JSX and a reactive component model, creates the TODO list app",
+  "private": true,
+  "scripts": {
+    "watch": "webpack --watch",
+    "start": "webpack-dev-server --open",
+    "build": "webpack"
+  },
+  "author": "Andrew Lowndes",
+  "license": "MIT",
+  "devDependencies": {
+    "css-loader": "^2.1.0",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "ts-loader": "^5.3.3",
+    "typescript": "^3.3.3",
+    "webpack": "^4.29.4",
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-server": "^3.1.14"
+  },
+  "dependencies": {
+    "es6-shim": "^0.35.4",
+    "normalize.css": "^8.0.1"
+  }
+}
